@@ -84,19 +84,10 @@ The application is based on the **Databricks OpenAI Agents SDK chatbot template*
 | File or folder | Purpose |
 |---|---|
 | [`agent_server/agent.py`](https://github.com/zakattack-s/Albert-Heijn-AI-course-project/blob/main/Albert%20Heijn%20AI%20assistant/agent_server/agent.py) | Contains the agent setup, system prompt, SQL execution tool, and request handlers. We defined the assistant's scope, SQL rules, data quality instructions, and chart output format. |
-| [`e2e-chatbot-app-next/`](https://github.com/zakattack-s/Albert-Heijn-AI-course-project/tree/main/Albert%20Heijn%20AI%20assistant/e2e-chatbot-app-next) | Contains the custom chat frontend and chart-rendering functionality, built by Hanin Maalla with AI assistance. |
+| [`e2e-chatbot-app-next/`](https://github.com/zakattack-s/Albert-Heijn-AI-course-project/tree/main/Albert%20Heijn%20AI%20assistant/e2e-chatbot-app-next) | Contains the custom chat interface and chart-rendering functionality, developed by my teammates. My contribution focused on the data pipeline and AI agent rather than frontend development. |
 | [`app.yaml`](https://github.com/zakattack-s/Albert-Heijn-AI-course-project/blob/main/Albert%20Heijn%20AI%20assistant/app.yaml) | Configures the Databricks application and references the required resources and environment settings. API keys and other secrets are not hardcoded in the source code. |
 
 The remaining files are part of the original Databricks template unless otherwise documented.
-
-## Key Design Choices
-
-- **Read-only database access:** The agent uses a service principal with read-only permissions to query the Gold tables.
-- **SQL-grounded answers:** Responses are based on SQL queries executed against the connected Databricks warehouse, rather than relying solely on the language model's knowledge.
-- **Defined data scope:** The assistant is connected to a specific set of Albert Heijn Gold tables, keeping its analysis focused on the data available for the project.
-- **Data-quality awareness:** Missing and invalid values are tracked through quality flags in the data pipeline, allowing the agent to account for data limitations when interpreting results.
-- **Separation of responsibilities:** The backend handles agent logic and SQL execution, while the Next.js frontend manages the chat interface and renders structured chart outputs.
-- **Structured chart generation:** The agent returns chart specifications in a predefined JSON format, which the frontend uses to render visualizations.
 
 ## System Prompt Guardrails
 
@@ -157,8 +148,6 @@ The repository is intended to document the project, its architecture, and the im
 ## My Role
 
 I contributed to the development of the data pipeline across the Bronze, Silver, and Gold layers, the design of the Gold tables, and the AI agent, including its system prompt and SQL execution tool. These were team efforts, and we collaborated and supported each other throughout the project.
-
-Hanin Maalla was responsible for building the frontend.
 
 ## Future Improvements
 
