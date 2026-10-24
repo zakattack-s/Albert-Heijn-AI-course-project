@@ -118,7 +118,7 @@ We evaluated the assistant using **48 test questions across 12 categories**, wit
 |---|---|---|
 | Basic sales | Product identification | Top-N questions |
 | Filtering | Weekly sales | Promotions |
-| Product characteristics | Missing data | Dutch and English language tests |
+| Product characteristics | Missing data | Multiple language tests |
 | Questions beyond the available data | Ambiguous questions | Multi-table queries |
 
 For each test question, we reviewed the generated SQL and checked the returned results against the database. We then assessed whether the final answer accurately reflected those results and addressed the user's question.
