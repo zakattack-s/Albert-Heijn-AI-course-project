@@ -82,9 +82,9 @@ The application is based on the **Databricks OpenAI Agents SDK chatbot template*
 
 | File or folder | Purpose |
 |---|---|
-| [`agent_server/agent.py`](agent-openai-agents-sdk/agent_server/agent.py) | Contains the agent setup, system prompt, SQL execution tool, and request handlers. We defined the assistant's scope, SQL rules, data quality instructions, and chart output format. |
-| [`e2e-chatbot-app-next/`](agent-openai-agents-sdk/e2e-chatbot-app-next/) | Contains the custom chat frontend and chart-rendering functionality, built by Hanin Maalla with AI assistance. |
-| [`app.yaml`](agent-openai-agents-sdk/app.yaml) | Configures the Databricks application and references the required resources and environment settings. API keys and other secrets are not hardcoded in the source code. |
+| [`agent_server/agent.py`](https://github.com/zakattack-s/Albert-Heijn-AI-course-project/blob/main/Albert%20Heijn%20AI%20assistant/agent_server/agent.py) | Contains the agent setup, system prompt, SQL execution tool, and request handlers. We defined the assistant's scope, SQL rules, data quality instructions, and chart output format. |
+| [`e2e-chatbot-app-next/`](https://github.com/zakattack-s/Albert-Heijn-AI-course-project/tree/main/Albert%20Heijn%20AI%20assistant/e2e-chatbot-app-next) | Contains the custom chat frontend and chart-rendering functionality, built by Hanin Maalla with AI assistance. |
+| [`app.yaml`](https://github.com/zakattack-s/Albert-Heijn-AI-course-project/blob/main/Albert%20Heijn%20AI%20assistant/app.yaml) | Configures the Databricks application and references the required resources and environment settings. API keys and other secrets are not hardcoded in the source code. |
 
 The remaining files are part of the original Databricks template unless otherwise documented.
 
