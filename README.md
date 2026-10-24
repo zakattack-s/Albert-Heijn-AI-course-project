@@ -20,12 +20,8 @@ Build an AI assistant in Databricks that allows Albert Heijn stakeholders to ask
 
 ### Architecture
 
-```mermaid
-```mermaid
-flowchart TD
-    A[User] --> B[Frontend]
-    B --> C[Backend]
-```
+<img width="682" height="527" alt="image" src="https://github.com/user-attachments/assets/9a106d14-386e-486a-9f06-fdad1416ca6a" />
+
 
 ## Data Engineering: Medallion Architecture
 
