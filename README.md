@@ -69,9 +69,9 @@ This resulted in three tables:
 
 | Table | Purpose |
 |---|---|
-| **Product characteristics** (`gold_product_characteristics`) | Combines product and delivery-unit attributes into one table, including product descriptions, dimensions, weights, expiry information, and delivery-unit details. |
-| **Weekly sales** (`gold_weekly_sales`) | Contains weekly sales enriched with product categories, groups, and promotion information, supporting week-level sales and promotion analysis. |
-| **Aggregated sales** (`gold_product_sales`) | Contains one row per product with total, average, minimum, maximum, and standard deviation of sales, along with promotional versus non-promotional sales averages and the number of promotional weeks. |
+| **Product characteristics** | Combines product and delivery-unit attributes into one table, including product descriptions, dimensions, weights, expiry information, and delivery-unit details. |
+| **Weekly sales** | Contains weekly sales enriched with product categories, groups, and promotion information, supporting week-level sales and promotion analysis. |
+| **Aggregated sales** | Contains one row per product with total, average, minimum, maximum, and standard deviation of sales, along with promotional versus non-promotional sales averages and the number of promotional weeks. |
 
 **Missing-value flags** were retained in the Gold tables wherever relevant, including sales, product weight, group information, and promotion information. These flags allow the agent to account for known data gaps and communicate relevant limitations when presenting results.
 
