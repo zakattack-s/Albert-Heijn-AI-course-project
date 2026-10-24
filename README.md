@@ -12,7 +12,7 @@ Build an AI assistant in Databricks that allows Albert Heijn stakeholders to ask
 
 ## What It Does
 
-1. The user asks a question in natural language, in Dutch or English.
+1. The user asks a question in natural language.
 2. The AI agent interprets the question and generates a Spark SQL query.
 3. The query is executed against the Gold tables through a Databricks SQL warehouse.
 4. The agent uses the query results to generate a natural-language answer.
