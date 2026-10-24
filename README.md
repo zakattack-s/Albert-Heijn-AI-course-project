@@ -57,6 +57,7 @@ Each source table was cleaned and transformed separately.
 | **Product groups** | Standardized missing group values by converting them into nulls. |
 | **Promotions** | Split promotion weeks into separate rows, with one row per product per promotion week. Converted non-numeric symbols into nulls and added a flag to identify missing values. |
 | **Sales** | Converted the data into long format, with one row per product per week. Converted missing values into nulls, treated zero sales values as invalid based on guidance from our project supervisor, and added a flag to identify missing or invalid sales data. |
+| **delivery** | Converted zeros into nulls and added a flag to identify missing values. |
 
 The decision to treat zero sales values as invalid was based on guidance from our supervisor about the quality of the supplied data. These values were converted to nulls rather than interpreted as genuine zero-unit sales.
 
