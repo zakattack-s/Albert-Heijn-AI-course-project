@@ -22,15 +22,15 @@ Build an AI assistant in Databricks that allows Albert Heijn stakeholders to ask
 
 ```mermaid
 flowchart TD
-    U[User] --> F[Chat frontend]
-    F --> A[AI agent]
-    A --> T[SQL execution tool]
-    T --> W[Databricks SQL warehouse]
-    W --> G[Gold Delta tables]
-    G --> W
-    W --> T
-    T --> A
-    A --> F
+    User --> Frontend
+    Frontend --> Agent
+    Agent --> SQLTool
+    SQLTool --> Warehouse
+    Warehouse --> GoldTables
+    GoldTables --> Warehouse
+    Warehouse --> SQLTool
+    SQLTool --> Agent
+    Agent --> Frontend
 ```
 
 ## Data Engineering: Medallion Architecture
