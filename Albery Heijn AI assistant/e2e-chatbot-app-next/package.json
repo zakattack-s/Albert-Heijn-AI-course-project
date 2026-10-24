@@ -1,0 +1,13 @@
+{
+  "name": "albert-heijn-ai-assistant-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive Albert Heijn AI assistant interface",
+  "scripts": {
+    "build": "node --check server.js && node --check public/app.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
