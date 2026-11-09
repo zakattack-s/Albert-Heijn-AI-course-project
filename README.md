@@ -1,6 +1,6 @@
 # Albert Heijn AI Data Assistant
 
-An AI assistant that answers stakeholders' questions about product and sales data in plain language. Built in Databricks as a course project for the **SpikeUp AI** course.
+An AI assistant that answers stakeholders' questions about product and sales data in plain language. Built in Databricks as a course project for the **SpikeUp AI** bootcamp.
 
 > **Disclaimer:** This is an educational project and is not affiliated with Albert Heijn. The data was provided by Albert Heijn for the course and is private. No real data is included in this repository.
 
